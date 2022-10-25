@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Number Guessing Game</h1>
-    <h2 class="feedback"></h2>
-    <label for="user-guess">Take a guess!</label>
-    <input type="text" id="user-guess" name="user-guess" required>
-    <br>
-    <input type="button" value="Guess">
-
-    <h3>Your Previous Guesses</h3>
-    <ul class="previous-guesses-list">
-        
-    </ul>
+    <div class="wrapper">
+        <h1>Number Guessing Game</h1>
+        <h2 class="feedback"></h2>
+        <input type="button" value="Play again" class="refresh">
+        <label for="user-guess">Take a guess!</label>
+        <input type="text" id="user-guess" name="user-guess">
+        <br>
+        <input type="button" id="btn" value="Guess">
+        <h3>Your Previous Guesses</h3>
+        <ol class="previous-guesses-list">
+            
+        </ol>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
