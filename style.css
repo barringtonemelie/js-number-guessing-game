@@ -1,0 +1,19 @@
+* {
+    padding: 0; 
+    margin: 0; 
+}
+
+.wrapper {
+    margin: 2rem auto; 
+    width: 500px; 
+    padding: 1rem; 
+    box-shadow: -5px 5px 25px grey;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper > * {
+    padding: 1rem; 
+}
